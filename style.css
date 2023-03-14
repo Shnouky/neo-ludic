@@ -5,7 +5,7 @@ body {
   padding: 0;
   background-color: #000000;
   text-shadow: 0 0 60px rgba(202, 228, 225, 0.8);
-
+  color: #000000;
 }
 
 .menu {
@@ -125,12 +125,16 @@ footer {
   width: 1800px;
 }
 
-#footer {
+.content {
+  height: 1066px;
+}
+
+.footer {
   background-color: #bc13fe;
   position:absolute;
   width: 100%;
   height: 100px;
-  bottom: -200;
+  bottom: 100;
 }
 
 .texte {
